@@ -6,10 +6,10 @@
   "homepage": "https://Akhil-Rajcb.github.io/FootBall_League_Manager",
   "scripts": {
     "dev": "vite",
-    "build": "vite build",
+    "build": "vite dist",
     "preview": "vite preview",
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d build"
+    "predeploy": "npm run dist",
+    "deploy": "gh-pages -d dist"
   },
   "dependencies": {
     "react": "^18.2.0",
