@@ -1,0 +1,23 @@
+{
+  "name": "football-league-manager",
+  "version": "1.0.0",
+  "description": "Football League Manager - React App",
+  "type": "module",
+  "homepage": "https://Akhil-Rajcb.github.io/FootBall_League_Manager",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist"
+  },
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-react": "^4.2.1",
+    "gh-pages": "^6.3.0",
+    "vite": "^7.3.0"
+  }
+}
